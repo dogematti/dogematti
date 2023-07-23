@@ -1,2 +1,1 @@
-- 👋 Hi, I’m @dogematti
-- 👀 I’m studying to become a cyber security engineer.
+PEN-200 student in september 2023 in order to get OSCP.
