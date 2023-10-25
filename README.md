@@ -1,1 +1,1 @@
-PEN-200 student in september 2023 in order to get OSCP.
+(STILL WAITING FOR THE SOCIAL CREDIT) 2023 in order to get OSCP AND OSWP. Also starting studies @ Helsinki Bussiness Collage, Cybersecurity Concentrated Study Program. And after I finnish the 3-year study program @ Helsinki Bussiness Collage, I will aim for OSCE3 Certification, and start my studies to become a Cybersecurity-Engineer-perhaps? dunno yet.
