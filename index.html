@@ -16,6 +16,7 @@
                 <ul>
                     <li><a href="#tuotteet">Tuotteet</a></li>
                     <li><a href="#tietoa-meista">Tietoa meistä</a></li>
+                    <li><a href="#blogi">Blogi</a></li>
                     <li><a href="#yhteystiedot">Yhteystiedot</a></li>
                 </ul>
                 <div class="search-bar">
@@ -36,18 +37,42 @@
         <section class="product-categories container">
             <h2>Tuoteryhmät</h2>
             <div class="category-grid">
+                <div class="category">
+                    <img src="images/pipot.jpg" alt="Pipot">
+                    <h3>Pipot</h3>
+                </div>
+                <div class="category">
+                    <img src="images/lapaset.jpg" alt="Lapaset">
+                    <h3>Lapaset</h3>
+                </div>
+                <div class="category">
+                    <img src="images/huivit.jpg" alt="Huivit">
+                    <h3>Huivit</h3>
+                </div>
                 </div>
         </section>
 
         <section id="tietoa-meista" class="about-us container">
             <h2>Tietoa meistä</h2>
-            <p>Kerro tarinasi ja intohimosi virkkaamiseen.</p>
+            <p>Olen pieni käsityöläinen, joka rakastaa virkkaamista. Valmistan kaikki tuotteet itse suurella sydämellä ja huolella. Käytän laadukkaita materiaaleja ja panostan yksityiskohtiin, jotta jokainen tuote olisi ainutlaatuinen ja kestävä.</p>
+        </section>
+
+        <section id="blogi" class="blog container">
+            <h2>Blogi</h2>
+            <div class="blog-posts">
+                </div>
         </section>
 
         <section id="yhteystiedot" class="contact-info container">
             <h2>Yhteystiedot</h2>
-            <p>Ota rohkeasti yhteyttä!</p>
-            </section>
+            <p>Ota rohkeasti yhteyttä, jos sinulla on kysyttävää tai haluat tehdä tilauksen!</p>
+            <form>
+                <input type="text" placeholder="Nimesi">
+                <input type="email" placeholder="Sähköpostiosoitteesi">
+                <textarea placeholder="Viestisi"></textarea>
+                <button type="submit">Lähetä</button>
+            </form>
+        </section>
     </main>
 
     <footer class="site-footer">
@@ -55,6 +80,30 @@
             <p>&copy; 2023 Virkutar.fi</p>
         </div>
     </footer>
+
+    <div id="start-menu-content" class="hidden">
+        <ul>
+            <li><a href="#tuotteet">Tuotteet</a></li>
+            <li><a href="#tietoa-meista">Tietoa meistä</a></li>
+            <li><a href="#blogi">Blogi</a></li>
+            <li><a href="#yhteystiedot">Yhteystiedot</a></li>
+            <li>Asetukset</li>
+            <li>Sammuta</li> 
+        </ul>
+    </div>
+
+    <div class="taskbar">
+        <div class="section" id="start-menu">
+            <button>Start</button>
+        </div>
+        <div class="section" id="pinned-apps">
+        </div>
+        <div class="section" id="open-apps">
+        </div>
+        <div class="section" id="system-tray">
+            <div id="clock"></div> 
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
